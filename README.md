@@ -4,7 +4,7 @@ This project provides a full-stack pipeline for transforming raw building-permit
 
 ## Why this matters
 
-Building-permit applications typically bundle many disparate documents—forms, plans, statements, scans—which hinder machine reasoning. The emerging **OntoBPR ontology** and the **ISO 21597 Information Containers for Data Delivery (ICDD)** standard aim to encode these documents and their semantics uniformly. This pipeline bridges the gap between raw submissions and a high-fidelity semantic container by:
+Building-permit applications typically bundle many disparate documents forms, plans, statements, scans which hinder machine reasoning. The emerging **OntoBPR ontology** and the **ISO 21597 Information Containers (ICDD)** standard aim to encode these documents and their semantics uniformly. This pipeline bridges the gap between raw submissions and a high-fidelity semantic container by:
 
 1.  **Reading** a submission ZIP/folder and staging its contents.
 2.  **Building** a Part 1 compliant ICDD container with the correct folder structure and RDF index, including `index.rdf`, `Ontology resources`, `Payload documents`, and `Payload triples` as mandated by ISO 21597.
